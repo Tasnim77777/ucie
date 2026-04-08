@@ -1,8 +1,9 @@
 SOFTINCLUDE /home/work/cds.lib
-DEFINE dwc_uciephy_rx /home/disk/projects/ucie/dwc_uciephy_rx
-DEFINE dwc_uciephy_dca /home/disk/projects/ucie/dwc_uciephy_dca
-DEFINE dwc_ucie2phy_dcd /home/disk/projects/ucie/dwc_ucie2phy_dcd
-DEFINE dwc_ucie2phy_lcdl /home/disk/projects/ucie/dwc_ucie2phy_lcdl
-DEFINE ts05ncpvlogl06hdl051f /home/disk/projects/ucie/ts05ncpvlogl06hdl051f
-DEFINE ts05ncpllogl06hdl051f /home/disk/projects/ucie/ts05ncpllogl06hdl051f
-DEFINE devicestack /home/disk/projects/ucie/devicestack
+DEFINE dwc_uciephy_rx /mnt/hgfs/shared_RHEL/ucie/dwc_uciephy_rx
+DEFINE dwc_uciephy_dca /mnt/hgfs/shared_RHEL/ucie/dwc_uciephy_dca
+DEFINE dwc_ucie2phy_dcd /mnt/hgfs/shared_RHEL/ucie/dwc_ucie2phy_dcd
+DEFINE dwc_ucie2phy_lcdl /mnt/hgfs/shared_RHEL/ucie/dwc_ucie2phy_lcdl
+DEFINE ts05ncpvlogl06hdl051f /mnt/hgfs/shared_RHEL/ucie/ts05ncpvlogl06hdl051f
+DEFINE ts05ncpllogl06hdl051f /mnt/hgfs/shared_RHEL/ucie/ts05ncpllogl06hdl051f
+DEFINE devicestack /mnt/hgfs/shared_RHEL/ucie/devicestack
+DEFINE widgets /mnt/hgfs/shared_RHEL/ucie/widgets
