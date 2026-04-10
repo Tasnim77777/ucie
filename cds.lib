@@ -7,3 +7,6 @@ DEFINE ts05ncpvlogl06hdl051f /home/disk/projects/ucie/ts05ncpvlogl06hdl051f
 DEFINE ts05ncpllogl06hdl051f /home/disk/projects/ucie/ts05ncpllogl06hdl051f
 DEFINE devicestack /home/disk/projects/ucie/devicestack
 DEFINE widgets /home/disk/projects/ucie/widgets
+DEFINE levelconv /home/disk/projects/ucie/levelconv
+DEFINE tsmcN5 /home/disk/projects/ucie/tsmcN5
+DEFINE gpcells /home/disk/projects/ucie/gpcells

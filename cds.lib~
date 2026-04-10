@@ -6,3 +6,10 @@ DEFINE dwc_ucie2phy_lcdl /home/disk/projects/ucie/dwc_ucie2phy_lcdl
 DEFINE ts05ncpvlogl06hdl051f /home/disk/projects/ucie/ts05ncpvlogl06hdl051f
 DEFINE ts05ncpllogl06hdl051f /home/disk/projects/ucie/ts05ncpllogl06hdl051f
 DEFINE devicestack /home/disk/projects/ucie/devicestack
+DEFINE widgets /home/disk/projects/ucie/widgets
+<<<<<<< HEAD
+=======
+DEFINE levelconv /home/disk/projects/ucie/levelconv
+DEFINE tsmcN5 /home/disk/projects/ucie/tsmcN5
+DEFINE gpcells /home/disk/projects/ucie/gpcells
+>>>>>>> 1a0c060fc3ca362ea7168a3a0767db3de176a2c2
