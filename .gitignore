@@ -1,3 +1,4 @@
 *.cdslock*
 *.cdslck*
 *.log*
+.cadence/
