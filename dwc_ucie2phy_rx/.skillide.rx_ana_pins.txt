@@ -1,0 +1,9 @@
+vbiasp vbiasp_a1 vbiasp_a0 vbiasp_nc vbiasp_nca1 VDD VPH
+
+
+ACgain0b ACgain1b DCgain0b DCgain1b DCgain11b RxEn_vga RxEnb RxIn_VIO VDD VPH VSS ctleEnbuf inn vbiasp vbiasp_a0 vbiasp_a1 vbiasp_nc vbiasp_nca1 
+
+
+ctleEnbuf vbiasp vbiasp_a0 vbiasp_a1 vbiasp_nc vbiasp_nca1 RxIn_VIO inn 
+
+

@@ -1,0 +1,18 @@
+vbiasp vbiasp_a1 vbiasp_a0 vbiasp_nc vbiasp_nca1 VDD VPH
+
+
+ACgain0b ACgain1b DCgain0b DCgain1b DCgain11b RxEn_vga RxEnb RxIn_VIO VDD VPH VSS ctleEnbuf inn vbiasp vbiasp_a0 vbiasp_a1 vbiasp_nc vbiasp_nca1 vbiasp_vga vbiasp_vga_a0 vbiasp_vga_a1 
+
+left pins: 
+ctleEnbuf vbiasp vbiasp_a0 vbiasp_a1 vbiasp_nc vbiasp_nca1 RxIn_VIO inn vbiasp_vga vbiasp_vga_a0 vbiasp_vga_a1 RxEn_vga RxEnb
+
+Right pints
+outp ounn
+
+top:
+DCgain11b DCgain1b DCgain0b VDD VPH
+
+bottom:
+ACgain0b ACgain1b VSS
+
+

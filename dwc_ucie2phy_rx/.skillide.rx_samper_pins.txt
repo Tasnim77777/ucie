@@ -1,0 +1,3 @@
+LbDin LbEn LbEnb VDD VSS clk vdac vin_n vin_p voff_n voff_p vout_n vout_p 
+
+left:
