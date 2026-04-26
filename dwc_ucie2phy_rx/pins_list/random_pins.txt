@@ -1,0 +1,65 @@
+Q3_latch_int Q3_latch_int1 Q3_latch_mid Q3_latch_mid_int Q3_latch_int2 Q3_latch Q3_int  Q3n_int
+Q2_latch_int Q2_latch_int1 Q2_latch Q2_int  Q2n_int
+Q1_latch_int Q1_latch_int1 Q1_latch Q1_int  Q1n_int
+
+
+Se LbEn OccEn D0 D1 D2 D3 D4 D5 D6 D7 CK Si 
+
+Q0 Q1 Q2 Q3 Q0n  Q1n  Q2n  Q3n So
+
+
+VDD VSS soft_VDD lbdout<7:0>
+
+ CK0 CK90 CK180 CK270 RxResetn
+
+
+TIEH TIEL  coarse<5:0> coarse_x<5:0> fine<1:0> fine_x<1:0> ckin
+
+RXClk_0 RXClk_90 RXClk_180 RXClk_270  coarse_0<5:0> coarse_90<5:0> coarse_180<5:0> coarse_270<5:0> coarse_x_0<5:0> coarse_x_90<5:0> coarse_x_180<5:0> coarse_x_270<5:0> fine_0<1:0> fine_90<1:0> fine_180<1:0> fine_270<1:0> fine_x_90<1:0> fine_x_180<1:0> fine_x_270<1:0> fine_x_<1:0> 
+
+
+
+RXClk_0 RXClk_90 RXClk_180 RXClk_270 coarse_0<5:0> coarse_x_0<5:0> fine_0<1:0> fine_x_0<1:0> coarse_90<5:0> coarse_x_90<5:0> fine_90<1:0> fine_x_90<1:0> coarse_180<5:0> coarse_x_180<5:0> fine_180<1:0> fine_x_180<1:0> coarse_270<5:0> coarse_x_270<5:0> fine_270<1:0> fine_x_270<1:0>  TIEH TIEL
+
+
+clk_0_n clk_90_n  clk_180_n clk_270_n clk_0_delay  clk_90_delay  clk_180_delay clk_270_delay  
+
+ VDD VSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$$$$$
+
+RxClk_0 RxClk_90 RxClk_180 RxClk_270  RxLbBdl<2:0> RxLbBdl_b<2:0> 
+clk_0_lb clk_90 clk_180_lb clk_270_lb clk_0_lb_delay  clk_90_lb_delay  clk_180_lb_delay  clk_270_lb_delay 
+   TIEH VDD LbEn
+ TIEL  VSS LbEnb
+
+
+
+
+################
+LbEn LbEnb RxClk_0 RxClk_90 RxClk_180 RxClk_270 RxLbBdl<2:0> RxLbBdl_b<2:0> TIEH TIEL VDD VSS coarse_0<5:0> coarse_90<5:0> coarse_180<5:0> coarse_270<5:0> coarse_x_0<5:0> coarse_x_90<5:0> coarse_x_180<5:0> coarse_x_270<5:0> fine_0<1:0> fine_90<1:0> fine_180<1:0> fine_270<1:0> fine_x_0<1:0> fine_x_90<1:0> fine_x_180<1:0> fine_x_270<1:0> 
+clk_0_delay clk_0_lb clk_0_lb_delay clk_0_n clk_90_delay clk_90_lb clk_90_lb_delay clk_90_n clk_180_delay clk_180_lb clk_180_lb_delay clk_180_n clk_270_buf clk_270_delay clk_270_lb clk_270_lb_delay clk_270_n 
+
+
+
+LbEn LbEnb RxClk_0 RxClk_90 RxClk_180 RxClk_270 coarse_0<5:0> coarse_180<5:0> coarse_270<5:0> coarse_90<5:0> coarse_x_0<5:0> coarse_x_180<5:0> coarse_x_270<5:0> coarse_x_90<5:0> fine_0<1:0> fine_180<1:0> fine_270<1:0> fine_90<1:0> fine_x_0<1:0> fine_x_180<1:0> fine_x_270<1:0> fine_x_90<1:0> RxLbBdl<2:0> RxLbBdl_b<2:0>
+clk_0_n clk_90_n clk_180_n clk_270_n clk_0_lb clk_90_lb clk_180_lb clk_270_lb clk_0_delay clk_90_delay clk_180_delay clk_270_delay clk_0_lb_delay clk_90_lb_delay clk_180_lb_delay clk_270_lb_delay clk_270_buf
+
+
+
+
