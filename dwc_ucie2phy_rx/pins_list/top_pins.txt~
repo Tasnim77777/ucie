@@ -1,0 +1,30 @@
+**** RxAsyncEn RxLbEn RxPowerMode<1:0> RxDCgain<1:0> RxACgain<1:0> RxDacSel<7:0> RxEn RxCtleEn RxNegCEn RxResetn RxSe<1:0> RxSi<1:0> PwrOk_VAON RxOffsetEn RxOffsetCalEn RxOffsetSel_0<6:0> RxOffsetSel_90<6:0> RxOffsetSel_180<6:0> RxOffsetSel_270<6:0> RxClkBdl_0<4:0> RxClkBdl_90<4:0> RxClkBdl_180<4:0> RxClkBdl_270<4:0> dly_sel<2:0> RxOccEn
+
+
+RxClk_0 RxClk_90 RxClk_180 RxClk_270 RxSamplerEn RxCdrEn RxLbBdl<2:0>
+
+output:###########3
+
+**** RxAsyncEnBuf RxAsyncEnb RxLbEnBuf RxLbEnb rxenb_lbenb_mux RxPowerModeBuf<1:0> RxDCgainBuf<1:0> RxACgainB<1:0> RxDacSelBuf<7:0> stdby stdbyx rxen_offsetcal_mux rxenb_offsetcal_mux RxCtleEnBuf RxNegCEnBuf RxResetnBuf RxSeBuf<1:0> RxSiBuf<1:0> TIEHI TIELO RxOffsetEnBuf RxOffsetEn poffset_selb_0<5:0> poffset_selb_90<5:0> poffset_selb_180<5:0> poffset_selb_270<5:0> noffset_selb_0<5:0> noffset_selb_90<5:0> noffset_selb_180<5:0> noffset_selb_270<5:0> coarse_0<5:0> coarse_180<5:0> coarse_270<5:0> coarse_90<5:0> coarse_x_0<5:0> coarse_x_180<5:0> coarse_x_270<5:0> coarse_x_90<5:0> fine_0<1:0> fine_180<1:0> fine_270<1:0> fine_90<1:0> fine_x_0<1:0> fine_x_180<1:0> fine_x_270<1:0> fine_x_90<1:0> RxLbBdl_buf<2:0> RxLbBdl_b<2:0> RxOccEnBuf
+
+
+VDD VCCAON
+VSS
+
+nets:
+RxAsyncEnBuf RxAsyncEnb RxLbEnBuf RxLbEnb RxENb_LbEnb_mux RxPowerModeBuf<1:0> RxDCgainBuf<1:0> RxACgainB<1:0> RxDacSelBuf<7:0> stdby stdbyx rxen_vga rxenb_vga RxCtleEnBuf RxNegCEnBuf RxResetnBuf RxSeBuf<1:0> RxSiBuf<1:0> soft_VDD soft_VSS RxOffsetEnBuf RxOffsetEn
+
+
+left pins: RxClk_0 RxClk_90 RxClk_180 RxClk_270 RxSamplerEn RxCdrEn
+
+
+
+############ttop
+left:
+VDD VCCAON VCCID VPH VSS RxAsyncEn RxLbEn RxLbDin<7:0>  RxVbias RxPwrOk_VAON RxIn_VIO RxCurrAdj<1:0> RxDCgain<1:0> RxACgain<1:0> RxOccEn RxDacSel<7:0> RxEn RxSamplerEn RxCtleEn RxNegCEn RxClk_0 RxClk_90 RxClk_180 RxClk_270 RxResetn RxSe<1:0> RxSi<1:0> RxUcieLikeEn RxLbBdl<2:0> RxOffsetCalEn RxCdrEn RxClkBdl_0<4:0> RxClkBdl_90<4:0> RxClkBdl_180<4:0> RxClkBdl_270<4:0> RxOffsetEn RxOffsetSel_0<6:0> RxOffsetSel_90<6:0> RxOffsetSel_180<6:0> RxOffsetSel_270<6:0> RxReserved<5:0>
+
+
+right:
+RxLbDout<7:0> RxDatAsync RxData<0> RxData<1> RxData<2> RxData<3> RxData<4> RxData<5> RxData<6> RxData<7> soft_VDD soft_VSS RxLbSo RxEarly RxLate RxClkOut
+
+
